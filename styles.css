@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+font-family: Curtive-Regular;
+src: url(fonts/CutiveMono-Regular.ttf);
+}
+
+.bg-img{
+    background-image: url("forrest-cavale-qfmd9bu7IgA-unsplash.jpg");
+    height: 95%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.bg-img h1{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    text-align: center;
+}
+
+.textfx{
+    display: inline-block;
+    vertical-align: middle;
+    background-color: black;
+    text-align: center;
+    width: 120px;
+
+}
+
+.menu-container{
+    position: absolute;
+    margin: 20px;
+    width: auto;
+}
+
+.nav{
+    overflow: hidden;
+}
+
+.nav a{
+    float: left;
+    color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+.nav a:hover{
+    color: black;
+}
+
+.contents{
+    background-color: white;
+    min-height: 700px;
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 10px;
+}
+
+.contents h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.contents p{
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: sans-serif;
+}
