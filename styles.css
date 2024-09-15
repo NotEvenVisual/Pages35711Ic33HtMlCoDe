@@ -9,15 +9,14 @@ src: url(fonts/CutiveMono-Regular.ttf);
 
 /* NAVIGATION BAR main style */
 .topnav {
-    background-color: #ffffff;
+    background-color: #101010;
     overflow: hidden;
-    border-bottom: 2px solid black;
   }
   
   /* NAVIGATION BAR text style */
   .topnav a {
     float: left;
-    color: #000000;
+    color: #ffffff;
     text-align: center;
     padding: 16px 20px;
     text-decoration: none;
@@ -27,7 +26,7 @@ src: url(fonts/CutiveMono-Regular.ttf);
   
   /* NAVIGATION BAR style on hover */
   .topnav a:hover {
-    background-color: #cfcfcf;
+    background-color: #2f2f2f;
   }
   
   /* NAVIGATION BAR current link colour  */
@@ -39,21 +38,20 @@ src: url(fonts/CutiveMono-Regular.ttf);
 .background{
   width: 100%;
   height: 50%;
-  border-bottom: 1px solid black;
   align-items: center;
   display: flex;
   justify-content: center;
-  background-image: linear-gradient(to right, rgb(180, 0, 0), black);
+  background-image: linear-gradient( rgb(110, 20, 20), black);
 }
 
 .background h2{
   color: white;
-  background-color: black;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Curtive-Regular';
   font-weight: normal;
+  font-size: 32px;
 }
 .contents{
-    background-color: #ffffff;
+    background-color: white;
     background-size: cover;
     min-height: 700px;
     position: relative;
@@ -63,15 +61,16 @@ src: url(fonts/CutiveMono-Regular.ttf);
 
 .contents h2{
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    margin-top: 15px;
     font-weight: normal;
-    color: #000000;
+    color: black;
 }
 
 .contents p{
     text-align: justify;
-    margin-left: 80px;
-    margin-right: 80px;
+    padding-left: 15%;
+    padding-right: 15%;
     font-family: sans-serif;
     color: black;
 }
@@ -95,7 +94,6 @@ src: url(fonts/CutiveMono-Regular.ttf);
   width: 100%;
   aspect-ratio: 2.333333;
   object-fit: cover;
-  border-radius: 10px;
   border: 1px solid black;
 }
 
