@@ -70,13 +70,13 @@ src: url(fonts/CutiveMono-Regular.ttf);
   margin: auto;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768pt) {
   /*Tablet*/
   .contents hr{
     width: 70%;
   }}
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1440pt) {
   /*Tablet*/
   .contents hr{
     width: 50%;
@@ -91,7 +91,7 @@ src: url(fonts/CutiveMono-Regular.ttf);
   color: black;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768pt) {
   /*Tablet*/
   .contents h2 {
     font-size: 24;
@@ -108,7 +108,7 @@ src: url(fonts/CutiveMono-Regular.ttf);
     color: black;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768pt) {
   /*Tablet*/
   .contents p{
     padding-left: 15%;
@@ -116,7 +116,7 @@ src: url(fonts/CutiveMono-Regular.ttf);
     font-size: 12pt;
   }}
 
-  @media only screen and (min-width: 1440px) {
+  @media only screen and (min-width: 1440pt) {
     /*desktop*/
     .contents p{
       padding-left: 25%;
@@ -129,14 +129,14 @@ src: url(fonts/CutiveMono-Regular.ttf);
   padding-right: 0%;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768pt) {
   /*Tablet*/
   [class*="gallery"] {
     padding-left: 15%;
     padding-right: 15%;
   }}
 
-  @media only screen and (min-width: 1440px) {
+  @media only screen and (min-width: 1440pt) {
     /*Desktop*/
     [class*="gallery"] {
       padding-left: 25%;
