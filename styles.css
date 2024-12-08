@@ -62,7 +62,7 @@ src: url(fonts/CutiveMono-Regular.ttf);
     position: relative;
     font-family: 'Courier New', Courier, monospace;
     padding-top: 10px; 
-    font-size: small;
+    font-size: medium;
 }
 
 .contents hr{
@@ -87,13 +87,14 @@ src: url(fonts/CutiveMono-Regular.ttf);
   margin-bottom: 25px;
   margin-top: 15px;
   font-weight: normal;
+  font-size: 20px;
   color: black;
 }
 
 @media only screen and (min-width: 768px) {
   /*Tablet*/
-  [class*="contents"] {
-    font-size: medium;
+  .contents h2 {
+    font-size: 24;
   }}
 
 
@@ -103,6 +104,7 @@ src: url(fonts/CutiveMono-Regular.ttf);
     padding-right: 2%;
     margin-bottom: 25px;
     font-family: sans-serif;
+    font-size: 12pt;
     color: black;
 }
 
@@ -111,6 +113,7 @@ src: url(fonts/CutiveMono-Regular.ttf);
   .contents p{
     padding-left: 15%;
     padding-right: 15%;
+    font-size: 12pt;
   }}
 
   @media only screen and (min-width: 1440px) {
