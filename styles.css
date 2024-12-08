@@ -37,12 +37,18 @@ src: url(fonts/CutiveMono-Regular.ttf);
 
 .background{
   width: 100%;
-  height: 50%;
+  height: 20%;
   align-items: center;
   display: flex;
   justify-content: center;
   background-image: linear-gradient( rgb(110, 20, 20), black);
 }
+
+@media only screen and (min-width: 768px) {
+  /*Tablet*/
+  [class*="background"] {
+    height: 50%;
+  }}
 
 .background h2{
   color: white;
@@ -56,30 +62,66 @@ src: url(fonts/CutiveMono-Regular.ttf);
     min-height: 700px;
     position: relative;
     font-family: 'Courier New', Courier, monospace;
-    padding-top: 10px;
+    padding-top: 10px;  
+    font-size: small;
 }
 
 .contents h2{
-    text-align: center;
-    margin-bottom: 25px;
-    margin-top: 15px;
-    font-weight: normal;
-    color: black;
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 15px;
+  font-weight: normal;
+  color: black;
 }
+
+@media only screen and (min-width: 768px) {
+  /*Tablet*/
+  [class*="contents"] {
+    font-size: medium;
+  }}
+
 
 .contents p{
     text-align: justify;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 2%;
+    padding-right: 2%;
     font-family: sans-serif;
     color: black;
 }
 
+@media only screen and (min-width: 768px) {
+  /*Tablet*/
+  .contents p{
+    padding-left: 15%;
+    padding-right: 15%;
+  }}
+
+  @media only screen and (min-width: 1440px) {
+    /*desktop*/
+    .contents p{
+      padding-left: 25%;
+      padding-right: 25%;
+    }}
+
 .gallery{
   height: auto;
-  padding-right: 18%;
-  padding-left: 18%;
+  padding-left: 0%;
+  padding-right: 0%;
 }
+
+@media only screen and (min-width: 768px) {
+  /*Tablet*/
+  [class*="gallery"] {
+    padding-left: 15%;
+    padding-right: 15%;
+  }}
+
+  @media only screen and (min-width: 1440px) {
+    /*Desktop*/
+    [class*="gallery"] {
+      padding-left: 25%;
+      padding-right: 25%;
+    }}
 
 .box{
   max-width: 100%;
@@ -95,8 +137,15 @@ src: url(fonts/CutiveMono-Regular.ttf);
   aspect-ratio: 1.78;
   object-fit: cover;
   border: 0pt solid black;
-  border-radius: 10pt;
+  border-radius: 0pt;
   transition: 0.3s;
+}
+
+.sketchfab-embed-wrapper iframe {
+  width: 100%;
+  border: none;
+  aspect-ratio: 1.78;
+  object-fit: cover;
 }
 
 .box img:hover{
